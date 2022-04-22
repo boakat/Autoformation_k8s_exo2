@@ -28,4 +28,4 @@
 #### Ecrivez un manifest service-nodeport-web.yml qui permettra d'exposer les pods via un service de type node port ,le nodeport devra être le 30008 et les target les ports 8080 de nos pods dont le label est "app:web"
           voir le fichier service-nodeport-web.yml
 #### Lancez la creation du service et vérifiez qu'il trouve les deux pods (champ endpoint en utilisant la commande kubectl describe )
-       kubectl apply -f service-nodeport-web.yml 
+          kubectl apply -f service-nodeport-web.yml -n production
