@@ -17,7 +17,7 @@
 #### Ecrivez un manifest namespace.yml qui crée un namespace nommé production 
           voir le fichier namespace.yml 
 #### lancez la création de ce namespace à partir du manifest 
-          kubectl apply -f namespace.yml -n production
+          kubectl apply -f namespace.yml 
 #### Ecrivez un manifest pod-red.yml pour déployer un pod avec l'image mmumshad/simple-webapp-color en précisant que la color souhaitée est la rouge (red) , le pod doit posséder de label "app:web"
           voir le fichier pod-red.yml
 #### Ecrivez un manifest pod-blue.yml pour déployer un pod avec l'image mmumshad/simple-webapp-color en précisant que la color souhaitée est le bleu (bleue) , le pod doit posséder de label "app:web"
